@@ -1,0 +1,27 @@
+{
+  "name": "covid-19 messenger bot",
+  "version": "1.0.0",
+  "description": "A covid-19 bot using Wit.ai and Facebook Messenger",
+  "keywords": [
+    "wit",
+    "wit.ai",
+    "bot",
+    "bots",
+    "Facebook",
+    "Messenger"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/bhberson/messenger-wit-bot",
+  "author": "Thang Nguyen Van <thangnv97ptit@gmail.com>",
+  "dependencies": {
+    "request": "^2.71.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "node-wit": "^3.3.0",
+    "axios": "^0.19.2"
+  }
+}
